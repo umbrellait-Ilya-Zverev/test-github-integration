@@ -16,6 +16,6 @@
 # /project_root/localization/zh_Hans_TW/source_file2.plist
 # You can fill up the yml file as per below:
 files:
-    -
-      source_path: '/src/locale/en-US.json'
-      translation_path: '/src/locale/[locale].json'
+  -
+    source_path: '/src/locale/en-US.json'
+    translation_path: '/src/locale/[locale].json'
