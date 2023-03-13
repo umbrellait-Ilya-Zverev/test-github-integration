@@ -1,0 +1,21 @@
+# For more information, please refer to https://developers.onesky.app/docs/github-integration-configuration
+
+# 1) yml must have only one root node called files
+# 2) each sequence node must have 'source_path' as mandatory key
+# 3) source_path contains the location of the source file in the github repo, if there's wildcard it has to be at the end of the path
+# 4) sequence node may contain 'translation_path' which contains the location of the translation files to be imported
+# 5) translation_path must contain the string '[locale]' which indicates where the language of the translation file
+# 6) [filename] is optional. It works as a wildcard
+
+# Example:
+# You have the source files:
+# /project_root/localization/en/source_file1.plist
+# /project_root/localization/en/source_file2.plist
+# and the translation files:
+# /project_root/localization/zh_Hans_TW/source_file1.plist
+# /project_root/localization/zh_Hans_TW/source_file2.plist
+# You can fill up the yml file as per below:
+files:
+    -
+      source_path: '/src/locale/en-US.json'
+      translation_path: '/src/locale/[locale].json'
