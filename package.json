@@ -1,0 +1,24 @@
+{
+  "name": "test-github-integration",
+  "version": "1.0.0",
+  "description": "test github integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umbrellait-Ilya-Zverev/test-github-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umbrellait-Ilya-Zverev/test-github-integration/issues"
+  },
+  "homepage": "https://github.com/umbrellait-Ilya-Zverev/test-github-integration#readme",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.2"
+  }
+}
